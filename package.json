@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node node_modules/cevitxe-signal-server/dist/start.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cevitxe-signal-server": "^0.3.0"
