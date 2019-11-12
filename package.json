@@ -1,0 +1,15 @@
+{
+  "name": "cevitxe-signal-server-standalone",
+  "version": "1.0.0",
+  "description": "Deployable signal server for Cevitxe",
+  "repository": "https://github.com/devresults/cevitxe-signal-server-standalone",
+  "author": "Herb Caudill <herb@devresults.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/cevitxe-signal-server/dist/start.js"
+  },
+  "dependencies": {
+    "cevitxe-signal-server": "^0.3.0"
+  }
+}
