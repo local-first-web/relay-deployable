@@ -13,6 +13,6 @@
     "cevitxe-signal-server": "^0.3.0"
   },
   "engines": {
-    "node": ">10"
+    "node": ">10.15.0"
   }
 }
