@@ -58,3 +58,11 @@ gcloud app create
 gcloud app deploy
 gcloud app browse
 ```
+
+## Deploying to Azure
+
+> You'll need to install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
+
+```bash
+
+```
