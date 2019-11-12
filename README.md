@@ -61,8 +61,16 @@ gcloud app browse
 
 ## Deploying to Azure
 
-> You'll need to install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
+> You'll need to have the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) installed.
 
 ```bash
-
+az group create --name my-signal-server --location eastus
+az configure --defaults group=cevitxe location=eastus
+az appservice plan create --name cevitxe --sku F1
+az webapp create --name cevitxe-signal-server --plan cevitxe
+az webapp deployment user set --user-name USERNAME --password PASSWORD
+az webapp deployment source config-local-git --name cevitxe-signal-server
+git remote add azure https://USERNAME@cevitxe-signal-server.scm.azurewebsites.net/cevitxe-signal-server.git
+git push azure master
+az webapp browse --name cevitxe-signal-server
 ```
