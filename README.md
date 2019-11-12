@@ -1,8 +1,8 @@
-﻿# Cevitxe Signal Server
+﻿# Cevitxe signal server
 
-See https://github.com/DevResults/cevitxe for information on what this is all about.
+This is a deployment wrapper for the [Cevitxe](https://github.com/DevResults/cevitxe) signal server.
 
-### Installing and running locally
+## Installing and running locally
 
 ```bash
 yarn
@@ -19,42 +19,42 @@ You can visit that address with a web browser to confirm that it's active. If it
 
 ![image](https://user-images.githubusercontent.com/2136620/68671483-b37b9f00-054f-11ea-8043-c5f028e38ef2.png)
 
-### Deploying with Heroku
+## Deploying to Glitch
 
-This app is intended to be deployable to Heroku out of the box. By its design it should only ever
-run with a single dyno.
+This server can run on [Glitch](https://glitch.com). Remix the
+[**cevitxe-signal-server**](https://glitch.com/edit/#!/cevitxe-signal-server) project.
+
+![image](https://user-images.githubusercontent.com/2136620/68673397-ef186800-0553-11ea-9840-45963ad4c18d.png)
+
+## Deploying to Heroku
+
+This server can be deployed to [Heroku](https://heroku.com). By design, it should only ever run with a single dyno.
+
+> You'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 ```bash
 heroku create
 git push heroku master
+heroku open
 ```
 
-You should see something like this:
+## Deploying to AWS Elastic Beanstalk
+
+> You'll need to install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html).
 
 ```bash
-↯ heroku create
-Creating app... done, ⬢ limitless-wave-17321
-https://limitless-wave-17326.herokuapp.com/ | https://git.heroku.com/limitless-wave-17326.git
+eb init
+eb create
+eb open
+```
 
+## Deploying to Google Cloud
 
-↯ git push heroku master
-Counting objects: 3, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 744 bytes | 186.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-remote: Compressing source files... done.
-remote: Building source:
-remote:
-remote: -----> Node.js app detected
-remote:
+> You'll need to install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/).
 
-...
-
-remote: -----> Launching...
-remote:        Released v4
-remote:        https://limitless-wave-17321.herokuapp.com/ deployed to Heroku
-remote:remote: Verifying deploy... done.
-To https://git.heroku.com/limitless-wave-17321.git
-   4b72546..60f08c6  master -> master
+```bash
+gcloud projects create my-signal-server --set-as-default
+gcloud app create
+gcloud app deploy
+gcloud app browse
 ```
