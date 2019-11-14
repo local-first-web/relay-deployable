@@ -12,3 +12,7 @@ jspm_packages
 
 # GCloud
 .gcloudignore
+
+# Azure
+.deploymnet
+.vscode 
