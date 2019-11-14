@@ -1,6 +1,6 @@
 ﻿# Cevitxe signal server
 
-This is a deployment wrapper for the [Cevitxe](https://github.com/DevResults/cevitxe) signal server.
+This is a deployment wrapper for [cevitxe-signal-server](https://github.com/DevResults/cevitxe/packages/cevitxe-signal-server).
 
 ## Installing and running locally
 
@@ -17,11 +17,11 @@ You should see confirmation on the command line that it's running.
 
 You can visit that address with a web browser to confirm that it's active. If it is, you'll see this:
 
-![image](https://user-images.githubusercontent.com/2136620/68671483-b37b9f00-054f-11ea-8043-c5f028e38ef2.png)
+<img src='./cevitxe-signal-server-screenshot.png' width='500' />
 
 ## Deploying to Glitch
 
-This server can run on [Glitch](https://glitch.com). Remix the
+This server can run on [Glitch](https://glitch.com). Remix the  
 [**cevitxe-signal-server**](https://glitch.com/edit/#!/cevitxe-signal-server) project.
 
 ![image](https://user-images.githubusercontent.com/2136620/68673397-ef186800-0553-11ea-9840-45963ad4c18d.png)
@@ -74,3 +74,7 @@ git remote add azure https://USERNAME@cevitxe-signal-server.scm.azurewebsites.ne
 git push azure master
 az webapp browse --name cevitxe-signal-server
 ```
+
+## AWS Lambda, Azure Functions, Zeit Now, Serverless, Cloudwatch Workers, etc.
+
+Since true serverless functions are stateless and only spun up on demand, they're not a good fit for this server, which needs to remember information about connected peers and maintain a stable websocket connection with each one.
