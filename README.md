@@ -37,7 +37,7 @@ heroku open
 
 ## Deploying to AWS Elastic Beanstalk
 
-> You'll need to install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html).
+To install using the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html).
 
 ```bash
 eb init
@@ -45,9 +45,9 @@ eb create
 eb open
 ```
 
-## Deploying to Google Cloud
+## Deploying to Google Clou
 
-> You'll need to install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/).
+To install using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/):
 
 ```bash
 gcloud projects create my-local-first-relay --set-as-default
@@ -58,7 +58,7 @@ gcloud app browse
 
 ## Deploying to Azure
 
-> You'll need to have the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) installed.
+To install using the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) installed:
 
 ```bash
 az group create --name my-local-first-relay --location eastus
