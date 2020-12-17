@@ -23,7 +23,7 @@ Alternatively, you can remix the [**local-first-relay**](https://glitch.com/edit
 
 ## Deploying to Heroku
 
-This server can be deployed to [Heroku](https://heroku.com). By design, it should only ever run with a single dyno.
+This server can be deployed to [Heroku](https://heroku.com). By design, it should only ever run with a single dyno. You can deploy it by clicking on this button:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
