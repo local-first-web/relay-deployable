@@ -9,11 +9,11 @@ Jump to instructions for:
 [AWS](#deploying-to-aws-elastic-beanstalk) |
 [Google](#deploying-to-google-cloud) |
 [Azure](#deploying-to-azure) |
-[local deployment](#installing-and-running-locally)
+[local server](#installing-and-running-locally)
 
 ## Deploying to Glitch
 
-You can deploy this relay to [Glitch](https://glitch.com) by clicking this button
+You can deploy this relay to [Glitch](https://glitch.com) by clicking this button:
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/local-first-web/relay-deployable)
 
@@ -91,4 +91,6 @@ You can visit that address with a web browser to confirm that it's active. If it
 
 ## AWS Lambda, Azure Functions, Vercel, Serverless, Cloudwatch Workers, etc.
 
-Since true serverless functions are stateless and only spun up on demand, they're not a good fit for this server, which needs to remember information about connected peers and maintain a stable websocket connection with each one.
+Since true serverless functions are stateless and only spun up on demand, they're not a good fit for
+this server, which needs to remember information about connected peers and maintain a stable
+websocket connection with each one.
