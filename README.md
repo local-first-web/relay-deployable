@@ -19,7 +19,7 @@ You can deploy this relay to [Glitch](https://glitch.com) by clicking this butto
 
 Alternatively, you can remix the [**local-first-relay**](https://glitch.com/edit/#!/local-first-relay) project.
 
-![image](https://user-images.githubusercontent.com/2136620/68673397-ef186800-0553-11ea-9840-45963ad4c18d.png)
+![image](./screenshot.png)
 
 ## Deploying to Heroku
 
