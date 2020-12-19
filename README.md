@@ -1,5 +1,5 @@
-﻿<img src='https://raw.githubusercontent.com/local-first-web/branding/main/svg/relay-v.svg'
-width='250' alt="@localfirst/relay logo"/>
+﻿<img src='https://raw.githubusercontent.com/local-first-web/branding/main/svg/relay-h.svg'
+width='600' alt="@localfirst/relay logo"/>
 
 This is a deployment wrapper for [@localfirst/relay](https://github.com/local-first-web/relay/packages/relay).
 
