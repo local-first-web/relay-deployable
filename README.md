@@ -1,7 +1,7 @@
 ﻿<img src='https://raw.githubusercontent.com/local-first-web/branding/main/svg/relay-h.svg'
 width='600' alt="@localfirst/relay logo"/>
 
-This is a deployment wrapper for [@localfirst/relay](https://github.com/local-first-web/relay/packages/relay).
+This is a deployment wrapper for [@localfirst/relay](https://github.com/local-first-web/relay).
 
 Jump to instructions for:
 [Glitch](#deploying-to-glitch) |
@@ -19,7 +19,7 @@ You can deploy this relay to [Glitch](https://glitch.com) by clicking this butto
 
 Alternatively, you can remix the [**local-first-relay**](https://glitch.com/edit/#!/local-first-relay) project.
 
-![image](./screenshot.png)
+![image](./glitch-screenshot.png)
 
 ## Deploying to Heroku
 
@@ -45,7 +45,7 @@ eb create
 eb open
 ```
 
-## Deploying to Google Clou
+## Deploying to Google Cloud
 
 To install using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/):
 
