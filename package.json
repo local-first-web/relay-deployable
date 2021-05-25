@@ -10,9 +10,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@localfirst/relay": "1"
+    "@localfirst/relay": "3"
   },
   "engines": {
-    "node": "10.X"
+    "node": ">=10"
   }
 }
