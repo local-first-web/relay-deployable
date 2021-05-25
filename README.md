@@ -31,7 +31,7 @@ Or, you can install using the [Heroku CLI](https://devcenter.heroku.com/articles
 
 ```bash
 heroku create
-git push heroku master
+git push heroku main
 heroku open
 ```
 
@@ -68,7 +68,7 @@ az webapp create --name my-local-first-relay --plan my-local-first-relay
 az webapp deployment user set --user-name USERNAME --password PASSWORD
 az webapp deployment source config-local-git --name my-local-first-relay
 git remote add azure https://USERNAME@my-local-first-relay.scm.azurewebsites.net/my-local-first-relay.git
-git push azure master
+git push azure main
 az webapp browse --name my-local-first-relay
 ```
 
@@ -87,7 +87,7 @@ You should see confirmation on the command line that it's running.
 
 You can visit that address with a web browser to confirm that it's active. If it is, you'll see this:
 
-<img src='./screenshot.png' width='500' align='center' />
+<img src='https://github.com/local-first-web/relay/raw/main/images/screenshot.png' width='500' align='center' />
 
 ## AWS Lambda, Azure Functions, Vercel, Serverless, Cloudwatch Workers, etc.
 
