@@ -1,6 +1,6 @@
 {
   "name": "@localfirst/relay-deployable",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "Deployment wrapper for @localfirst/relay",
   "repository": "https://github.com/local-first-web/relay-deployable",
   "author": "Herb Caudill <herb@devresults.com>",
