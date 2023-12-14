@@ -1,6 +1,6 @@
 {
   "name": "@localfirst/relay-deployable",
-  "version": "1.0.0",
+  "version": "4.2.1",
   "description": "Deployment wrapper for @localfirst/relay",
   "repository": "https://github.com/local-first-web/relay-deployable",
   "author": "Herb Caudill <herb@devresults.com>",
@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@localfirst/relay": "3"
+    "@localfirst/relay": "4.2.2"
   },
   "engines": {
     "node": ">=10"
